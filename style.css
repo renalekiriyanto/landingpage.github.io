@@ -52,3 +52,43 @@ a {
 .jumbotron p {
   font-size: 24px;
 }
+
+/*Footer*/
+footer {
+  padding: 70px 0;
+  background-color: #091426;
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-logo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+footer img {
+  height: 100px;
+}
+
+.footer-list ul {
+  list-style-type: none;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+
+.content-footer {
+  text-align: center;
+  border-top: 1px solid #112443;
+  font-size: 12px;
+  margin-top: 45px;
+  padding-top: 45px;
+}
+
+.content-footer p {
+  margin: 0;
+  padding: 0 80px;
+}
+
